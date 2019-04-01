@@ -26,7 +26,7 @@ class QuizQuestion extends Component{
             <section className="buttons">
               <ul>
                   {item}
-                  <li>{this.props.quiz_question.answer_options[0]}</li>
+               
               </ul>
             </section>
            {this.state.incorrectAnswer ? <p className="error">Sorry, that's not right</p> : null}
